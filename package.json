@@ -1,6 +1,6 @@
 {
   "name": "ui5-cache-buster-middleware",
-  "version": "0.1.0",
+  "version": "0.0.1-alpha.1",
   "main": "lib/middleware.js",
   "license": "Apache-2.0",
   "author": "Christian Theilemann <c.theilemann@gmail.com>",
