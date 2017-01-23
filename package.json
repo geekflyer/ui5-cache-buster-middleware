@@ -1,0 +1,36 @@
+{
+  "name": "ui5-cache-buster-middleware",
+  "version": "0.1.0",
+  "main": "lib/middleware.js",
+  "license": "Apache-2.0",
+  "author": "Christian Theilemann <c.theilemann@gmail.com>",
+  "repository": "geekflyer/ui5-cache-buster-middleware",
+  "scripts": {
+    "test": "mocha",
+    "dev": "npm run test -- --watch",
+    "coverage": "nyc --extension .js --reporter html --report-dir testresults/coverage npm run test"
+  },
+  "dependencies": {
+    "bluebird": "=3.4.7",
+    "core-js": "=2.4.1",
+    "stream-to-promise": "=2.2.0",
+    "through2": "=2.0.3",
+    "vinyl-fs": "=2.4.4"
+  },
+  "peerDependencies": {
+    "express": "4.x"
+  },
+  "devDependencies": {
+    "chai": "=3.5.0",
+    "chai-as-promised": "6.0.0",
+    "got": "6.7.1",
+    "gulp-debug": "3.0.0",
+    "mocha": "=3.2.0",
+    "mock-fs": "4.0.0-beta.1",
+    "nyc": "=10.1.2",
+    "sinon": "1.17.7",
+    "sinon-chai": "2.8.0",
+    "supertest": "2.0.1",
+    "vinyl": "=2.0.1"
+  }
+}

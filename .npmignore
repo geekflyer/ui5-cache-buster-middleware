@@ -1,0 +1,8 @@
+
+/testresults/
+/.nyc_output/
+/npm-debug.log
+/.idea/
+yarn.lock
+/test/
+/examples/

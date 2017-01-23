@@ -1,0 +1,7 @@
+
+/testresults/
+/.nyc_output/
+/npm-debug.log
+/.idea/
+**/node_modules/
+yarn.lock
