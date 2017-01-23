@@ -8,7 +8,7 @@
   "scripts": {
     "test": "mocha",
     "dev": "npm run test -- --watch",
-    "coverage": "nyc --extension .js --reporter html --report-dir testresults/coverage npm run test"
+    "coverage": "nyc --extension .js --reporter html --reporter lcov --report-dir testresults/coverage npm run test"
   },
   "dependencies": {
     "bluebird": "=3.4.7",
@@ -23,6 +23,7 @@
   "devDependencies": {
     "chai": "=3.5.0",
     "chai-as-promised": "6.0.0",
+    "express": "4.14.0",
     "got": "6.7.1",
     "gulp-debug": "3.0.0",
     "mocha": "=3.2.0",

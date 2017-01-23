@@ -136,4 +136,8 @@ describe('middleware', function () {
     (() => cacheBusterMiddleware(['path/does/not/exist'])).should.throw();
   });
 
+  it('if not passing an array of paths as first param, the factory will throw', function () {
+    (() => cacheBusterMiddleware({})).should.throw(TypeError)
+  })
+
 });
